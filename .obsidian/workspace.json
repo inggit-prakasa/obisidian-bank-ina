@@ -4,17 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "c874750caf1f046f",
+        "id": "094b7565f5c78e15",
         "type": "tabs",
         "children": [
           {
-            "id": "35092f635b10f7f9",
+            "id": "9ec7167878c789d7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01-projects/EReconcile/MoM/MoM Weekly Meeting 20260629.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "MoM Weekly Meeting 20260629"
+            }
+          },
+          {
+            "id": "780b74b25864cf7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-projects/EReconcile/MoM/MoM Weekly Meeting 20260629.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MoM Weekly Meeting 20260629"
             }
           }
         ]
@@ -74,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 271.51103591918945
   },
   "right": {
     "id": "536c58c36849c6a7",
@@ -167,13 +185,23 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "5e88191c0e3cfba2",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,8 +217,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "35092f635b10f7f9",
+  "active": "47c51679bcb702c1",
   "lastOpenFiles": [
-    "README.md"
+    "00-inbox/daily/2026-06-29.md",
+    "01-projects/EReconcile/MoM/MoM Weekly Meeting 20260629.md",
+    "Excalidraw/Drawing 2026-06-29 10.58.05.excalidraw.md",
+    "01-projects/EReconcile/MoM",
+    "Excalidraw/Diagram ERecon Function.excalidraw.md",
+    "00-inbox/daily",
+    "Excalidraw",
+    "Template/Daily Notes.md",
+    "Template",
+    "01-projects/EReconcile",
+    "README.md",
+    "04-daily-notes/2026-06-29.md",
+    "04-archive",
+    "04-daily-notes",
+    "03-resources",
+    "02-areas",
+    "01-projects"
   ]
 }
