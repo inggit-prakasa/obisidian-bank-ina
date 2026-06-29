@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b857188f0c7b8cd1",
+        "id": "a80cfbdc2dcc556a",
         "type": "tabs",
         "children": [
           {
-            "id": "1154de80db12f2c9",
+            "id": "7fd8cd88bb8e5375",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "00-inbox/daily/2026-06-29.md",
-                "bFile": "00-inbox/daily/2026-06-29.md",
-                "aRef": ""
+                "file": "00-inbox/daily/2026-06-29.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 2026-06-29  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "2026-06-29"
             }
           }
         ]
@@ -187,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.5
+    "width": 323.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,10 +203,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1154de80db12f2c9",
+  "active": "7fd8cd88bb8e5375",
   "lastOpenFiles": [
-    "00-inbox/daily/2026-06-29.md",
     "01-projects/EReconcile/MoM/MoM Weekly Meeting 20260629.md",
+    "00-inbox/daily/2026-06-29.md",
     "Excalidraw/Drawing 2026-06-29 10.58.05.excalidraw.md",
     "01-projects/EReconcile/MoM",
     "Excalidraw/Diagram ERecon Function.excalidraw.md",
