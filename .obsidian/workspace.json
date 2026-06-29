@@ -11,14 +11,14 @@
             "id": "1154de80db12f2c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "00-inbox/daily/2026-06-29.md",
-                "mode": "source",
-                "source": false
+                "aFile": "00-inbox/daily/2026-06-29.md",
+                "bFile": "00-inbox/daily/2026-06-29.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "2026-06-29"
+              "icon": "diff",
+              "title": "Diff: 2026-06-29  (Working Tree)"
             }
           }
         ]
@@ -154,13 +154,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-inbox/daily/2026-06-29.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-06-29"
+              "title": "Outline"
             }
           },
           {
@@ -206,8 +205,8 @@
   },
   "active": "1154de80db12f2c9",
   "lastOpenFiles": [
-    "01-projects/EReconcile/MoM/MoM Weekly Meeting 20260629.md",
     "00-inbox/daily/2026-06-29.md",
+    "01-projects/EReconcile/MoM/MoM Weekly Meeting 20260629.md",
     "Excalidraw/Drawing 2026-06-29 10.58.05.excalidraw.md",
     "01-projects/EReconcile/MoM",
     "Excalidraw/Diagram ERecon Function.excalidraw.md",
