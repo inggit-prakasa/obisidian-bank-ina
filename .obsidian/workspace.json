@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-projects/EReconcile/Biller PAC.md",
+                "file": "00-inbox/daily/2026-07-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Biller PAC"
-            }
-          },
-          {
-            "id": "2cce937266a4228d",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/graph.json",
-                "bFile": ".obsidian/graph.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: graph.json  (Working Tree)"
+              "title": "2026-07-01"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 367.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,10 +204,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2cce937266a4228d",
+  "active": "7fd8cd88bb8e5375",
   "lastOpenFiles": [
-    "01-projects/EReconcile/Biller PAC.md",
     "00-inbox/daily/2026-06-29.md",
+    "00-inbox/daily/2026-07-01.md",
+    "01-projects/EReconcile/Biller PAC.md",
     "Excalidraw/Biller PAC Diagram.md",
     "Excalidraw/Diagram ERecon Function.excalidraw.md",
     "Excalidraw/Drawing 2026-06-29 10.58.05.excalidraw.md",
