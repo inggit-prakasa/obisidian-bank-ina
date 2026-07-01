@@ -11,12 +11,14 @@
             "id": "7fd8cd88bb8e5375",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Biller PAC Diagram.md"
+                "file": "01-projects/EReconcile/Biller PAC.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Biller PAC Diagram"
+              "icon": "lucide-file",
+              "title": "Biller PAC"
             }
           }
         ]
@@ -204,10 +206,10 @@
   },
   "active": "7fd8cd88bb8e5375",
   "lastOpenFiles": [
+    "Excalidraw/Biller PAC Diagram.md",
     "00-inbox/daily/2026-07-01.md",
     "00-inbox/daily/2026-06-29.md",
     "01-projects/EReconcile/Biller PAC.md",
-    "Excalidraw/Biller PAC Diagram.md",
     "Excalidraw/Diagram ERecon Function.excalidraw.md",
     "Excalidraw/Drawing 2026-06-29 10.58.05.excalidraw.md",
     "01-projects/EReconcile/MoM/MoM Weekly Meeting 20260629.md",
