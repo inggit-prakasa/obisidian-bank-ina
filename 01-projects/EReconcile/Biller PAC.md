@@ -4,12 +4,18 @@
 Source : 
 - **FUNDS_TRANSFER** (bina-erecon)
 - **IBMB_ADMIN** (bigquery)
+	- Transaksi : 
+		- Internet (88)
+		- Pembayaran PLN (81)
+		- PDAM (80)
+
 	```
   Select * from dina-prd-env.bina_pac_channel_ebanking.ebanking_t_transaction t
 	Inner Join dina-prd-env.bina_pac_channel_ebanking.ebanking_m_customer c 
 	  On c.id = t.m_customer_id 
 	Left Join dina-prd-env.bina_pac_channel_ebanking.ebanking_t_transaction_data td
     ```
+	- filter by translation_code = 80,81,88
 - **TELLER** (bina-erecon)
 
 > ibmb_admin is data transaction ft or teller is journal transaction, so if  we reconcile must left join funds_transfer or teller first next to ibmb_admin
