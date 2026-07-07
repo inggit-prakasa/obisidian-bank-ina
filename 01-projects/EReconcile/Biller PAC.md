@@ -83,11 +83,7 @@ insert into gmmappingreportdop ("fieldaccountdestination", "fieldaccountissuer",
   values ('source_account', 'debit_account_id', 'acquirer', 'card_no', 'fee_admin', 'recvbic', 'debtbic', 'partner_reference', 'status', 'product_name', 'settlement_date', 'fee_admin', 'journal_reference_id', 'transaction_date', 'transaction_type', gmparameter0_id, 9, 4, 2, 1, 9, 4, 4, 9, 4, 9, 9, 9, 9, 9, 1)
 
 -- 2. Create gmparameter4
-insert into gmparameter4 ("changeby", "changedate", "changeno", "createby", "createdate", "externaldata", "flagamount", "formulacolumn1", "formulacolumn2", "idno", "internaldata", "lineno", "rules", "tolerance") 
-values 
-('System', NOW(), '1', 'System', NOW(), '', 0, '(partner_reference)', '(App Ref No)', 2, 9, gmparameter0_id, '=', ''), 
-('System', NOW(), '1', 'System', NOW(), '', 0, '(settlement_date)', '(Trx Date)', 3, 9, gmparameter0_id, '=', '1'), 
-('System', NOW(), '1', 'System', NOW(), '', 1, '(total_amount)', '(Total Pay)', 1, 9, gmparameter0_id, '=', '')
+
 
 -- 3. Insert gmfiletype1
 INSERT INTO "bina-erecon"."public"."gmfiletype1" (lineno,idno,field,mappingtodatamart,startindex,endindex,row,changeno,createby,createdate,changeby,changedate,linenomappingdatamart) VALUES
