@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-resources/Chat2DB Review.md",
+                "file": "00-inbox/daily/2026-07-07.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chat2DB Review"
+              "title": "2026-07-07"
             }
           }
         ],
@@ -216,7 +216,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 350.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,18 +234,18 @@
   },
   "active": "3b62bc1c4e01b777",
   "lastOpenFiles": [
+    "00-inbox/daily/2026-06-29.md",
+    "00-inbox/daily/2026-07-01.md",
+    "00-inbox/daily/2026-07-02.md",
+    "00-inbox/daily/2026-07-03.md",
+    "00-inbox/daily/2026-07-06.md",
     "00-inbox/daily/2026-07-07.md",
     "03-resources/Chat2DB Review.md",
     "02-areas/Account.md",
     "02-areas/Account",
-    "00-inbox/daily/2026-07-06.md",
     "01-projects/EReconcile/Biller Prima.md",
-    "00-inbox/daily/2026-07-03.md",
-    "00-inbox/daily/2026-07-02.md",
     "01-projects/EReconcile/Biller PAC.md",
     "Excalidraw/Biller PAC Diagram.md",
-    "00-inbox/daily/2026-07-01.md",
-    "00-inbox/daily/2026-06-29.md",
     "Excalidraw/Diagram ERecon Function.excalidraw.md",
     "Excalidraw/Drawing 2026-06-29 10.58.05.excalidraw.md",
     "01-projects/EReconcile/MoM/MoM Weekly Meeting 20260629.md",
