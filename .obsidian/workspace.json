@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-projects/EReconcile/Biller PAC.md",
+                "file": "00-inbox/daily/2026-07-07.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Biller PAC"
+              "title": "2026-07-07"
             }
           }
         ],
@@ -235,8 +235,8 @@
   },
   "active": "3b62bc1c4e01b777",
   "lastOpenFiles": [
-    "01-projects/EReconcile/Biller Prima.md",
     "01-projects/EReconcile/Biller PAC.md",
+    "01-projects/EReconcile/Biller Prima.md",
     "00-inbox/daily/2026-07-07.md",
     "03-resources/Chat2DB Review.md",
     "00-inbox/daily/2026-06-29.md",
