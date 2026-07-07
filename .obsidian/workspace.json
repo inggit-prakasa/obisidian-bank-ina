@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-projects/EReconcile/Biller Prima.md",
-                "mode": "source",
+                "file": "02-areas/Account.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Biller Prima"
+              "title": "Account"
             }
           }
         ],
@@ -234,8 +234,11 @@
   },
   "active": "3b62bc1c4e01b777",
   "lastOpenFiles": [
-    "01-projects/EReconcile/Biller Prima.md",
+    "00-inbox/daily/2026-07-07.md",
+    "02-areas/Account.md",
+    "02-areas/Account",
     "00-inbox/daily/2026-07-06.md",
+    "01-projects/EReconcile/Biller Prima.md",
     "00-inbox/daily/2026-07-03.md",
     "00-inbox/daily/2026-07-02.md",
     "01-projects/EReconcile/Biller PAC.md",
@@ -256,7 +259,6 @@
     "04-archive",
     "04-daily-notes",
     "03-resources",
-    "02-areas",
-    "01-projects"
+    "02-areas"
   ]
 }
