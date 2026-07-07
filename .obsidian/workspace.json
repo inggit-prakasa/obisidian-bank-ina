@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-areas/Account.md",
+                "file": "03-resources/Chat2DB Review.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Account"
+              "title": "Chat2DB Review"
             }
           }
         ],
@@ -235,6 +235,7 @@
   "active": "3b62bc1c4e01b777",
   "lastOpenFiles": [
     "00-inbox/daily/2026-07-07.md",
+    "03-resources/Chat2DB Review.md",
     "02-areas/Account.md",
     "02-areas/Account",
     "00-inbox/daily/2026-07-06.md",
