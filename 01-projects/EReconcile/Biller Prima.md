@@ -6,19 +6,33 @@
 # Query Execute
 
 ```sql
+-- 0. Select gmparameter0 and gmfiletype0 with partipant is Prima and channel biller
+select * from gmparameter0 where channelname = 'Biller' and thirdpartyname = 'Prima'; -- 55
+select * from gmfiletype0 where channel = 'Biller' and participant = 'Prima'; -- 59
+
 -- 1. Create gmmappingreportDOP
-insert into gmmappingreportdop ("fieldaccountdestination", "fieldaccountissuer", "fieldacquirerid", "fieldcardnumber", "fieldchargeamount", "fielddestination", "fieldissuerid", "fieldreciptnumber", "fieldstatus", "fieldterminalid", "fieldtransactiondate", "fieldtransactionfee", "fieldtransactionid", "fieldtransactiontime", "fieldtransactiontype", "parameterid", "sourceaccountdestination", "sourceaccountissuer", "sourceacquirerid", "sourcecardnumber", "sourcechargeamount", "sourcedestination", "sourceissuerid", "sourcereciptnumber", "sourcestatus", "sourceterminalid", "sourcetransactiondate", "sourcetransactionfee", "sourcetransactionid", "sourcetransactiontime", "sourcetransactiontype") 
-  values ('source_account', 'debit_account_id', 'acquirer', 'card_no', 'fee_admin', 'recvbic', 'debtbic', 'partner_reference', 'status', 'product_name', 'settlement_date', 'fee_admin', 'journal_reference_id', 'transaction_date', 'transaction_type', gmparameter0_id, 9, 4, 2, 1, 9, 4, 4, 9, 4, 9, 9, 9, 9, 9, 1)
+INSERT INTO gmmappingreportdop (parameterid,sourcetransactionid,fieldtransactionid,sourcetransactiondate,fieldtransactiondate,sourcetransactiontime,fieldtransactiontime,sourceacquirerid,fieldacquirerid,sourceissuerid,fieldissuerid,sourceterminalid,fieldterminalid,sourcedestination,fielddestination,sourcereciptnumber,fieldreciptnumber,sourcetransactionfee,fieldtransactionfee,sourceaccountissuer,fieldaccountissuer,sourceaccountdestination,fieldaccountdestination,sourcetransactiontype,fieldtransactiontype,sourcechargeamount,fieldchargeamount,sourcecardnumber,fieldcardnumber,sourcestatus,fieldstatus) VALUES (gmparameter0_id,9,'journal_reference_id',9,'settlement_date',9,'transaction_date',2,'acquirer',4,'debtbic',9,'product_name',4,'recvbic',9,'partner_reference',9,'fee_admin',9,'source_account',2,'dest_acc_number',1,'transaction_type',9,'fee_admin',1,'card_no',4,'status');
 
 -- 2. Create gmparameter4
-INSERT INTO "bina-erecon"."public"."gmparameter4" (lineno,idno,internaldata,externaldata,formulacolumn1,rules,formulacolumn2,tolerance,changeno,createby,createdate,changeby,changedate,flagamount) VALUES ('55','1','9','49','(total_amount)','=','(AMOUNT)','','0','sendhynugroho@gmail.com','2026-07-07 15:08:36.414723','sendhynugroho@gmail.com','2026-07-07 15:08:36.414723','1'),('55','2','9','49','(total_amount)','=','(AMOUNT)','','0','sendhynugroho@gmail.com','2026-07-07 15:08:36.414723','sendhynugroho@gmail.com','2026-07-07 15:08:36.414723','0'),('55','3','9','49','(partner_reference)','=','(REF-NO)','','0','sendhynugroho@gmail.com','2026-07-07 15:08:36.414723','sendhynugroho@gmail.com','2026-07-07 15:08:36.414723','0'),('55','4','9','49','(settlement_date)','=','(TANGGAL)','1','0','sendhynugroho@gmail.com','2026-07-07 15:08:36.414723','sendhynugroho@gmail.com','2026-07-07 15:08:36.414723','0');
+DELETE from gmparameter4 where lineno = gmparameter0_id;
+
+INSERT INTO gmparameter4 (lineno,idno,internaldata,externaldata,formulacolumn1,rules,formulacolumn2,tolerance,changeno,createby,createdate,changeby,changedate,flagamount) VALUES 
+(gmparameter0_id,1,9,gmfiletype0_id,'(total_amount)','=','(AMOUNT)','',0,'System',NOW(),'System',NOW(),1),
+(gmparameter0_id,2,9,gmfiletype0_id,'(partner_reference)','=','(REF-NO)','',0,'System',NOW(),'System',NOW(),0),
+(gmparameter0_id,3,9,gmfiletype0_id,'(settlement_date)','=','(TANGGAL)','1',0,'System',NOW(),'System',NOW(),0);
 
 -- 3. Insert gmfiletype1
-INSERT INTO "bina-erecon"."public"."gmfiletype1" (lineno,idno,field,mappingtodatamart,startindex,endindex,row,changeno,createby,createdate,changeby,changedate,linenomappingdatamart) VALUES ('59','3','JAM','transaction_date','19','26','6','0','sendhynugroho@gmail.com','2026-07-07 15:05:57.196437','sendhynugroho@gmail.com','2026-07-07 15:05:57.196437','9'),('59','4','AMOUNT','base_amount','71','82','6','0','sendhynugroho@gmail.com','2026-07-07 15:05:57.196437','sendhynugroho@gmail.com','2026-07-07 15:05:57.196437','9'),('59','5','TRACE-NO','journal_reference_id','125','130','6','0','sendhynugroho@gmail.com','2026-07-07 15:05:57.196437','sendhynugroho@gmail.com','2026-07-07 15:05:57.196437','9'),('59','2','TANGGAL','settlement_date','9','16','6','0','sendhynugroho@gmail.com','2026-07-07 15:05:57.196437','sendhynugroho@gmail.com','2026-07-07 15:05:57.196437','9'),('59','1','REF-NO','partner_reference','21','33','7','0','sendhynugroho@gmail.com','2026-07-07 14:52:28.824281','sendhynugroho@gmail.com','2026-07-07 14:52:28.824281','9');
+DELETE from gmfiletype1 where lineno = gmfiletype0_id;
+
+INSERT INTO gmfiletype1 (lineno,idno,field,mappingtodatamart,startindex,endindex,row,changeno,createby,createdate,changeby,changedate,linenomappingdatamart) VALUES 
+(gmfiletype0_id,1,'REF-NO','partner_reference',21,33,7,0,'System',NOW(),'System',NOW(),9),
+(gmfiletype0_id,2,'TANGGAL','settlement_date',9,17,6,0,'System',NOW(),'System',NOW(),9),
+(gmfiletype0_id,3,'JAM','transaction_date',19,27,6,0,'System',NOW(),'System',NOW(),9),
+(gmfiletype0_id,4,'AMOUNT','base_amount',71,82,6,0,'System',NOW(),'System',NOW(),9),
+(gmfiletype0_id,5,'TRACE-NO','journal_reference_id',125,130,6,0,'System',NOW(),'System',NOW(),9);
 
 -- 4. Update filter 
 UPDATE gmfilterreconciliation0 
 SET ibmb = '0', biller = '1' 
 WHERE linenoparameter = gmparameter0_id;
-
 ```
