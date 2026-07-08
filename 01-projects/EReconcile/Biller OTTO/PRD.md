@@ -16,17 +16,20 @@ Tanpa pipeline otomatis, proses rekonsiliasi transaksi OTTO harus dilakukan manu
 
 ### 1.3 Target Pengguna (Stakeholders)
 
-|Peran|Kebutuhan|
-|---|---|
-|Tim Reconciliation/Finance Ops|Data transaksi OTTO harian yang akurat & tepat waktu untuk proses rekon|
-|Tim Data Engineering|Pipeline yang mudah dipantau, di-retry, dan di-backfill|
-|Tim Audit/Kepatuhan|Jejak data (traceability) antara sumber biller dan mutasi rekening|
+| Peran                          | Kebutuhan                                                               |
+| ------------------------------ | ----------------------------------------------------------------------- |
+| Tim Reconciliation/Finance Ops | Data transaksi OTTO harian yang akurat & tepat waktu untuk proses rekon |
+| Tim Data Engineering           | Pipeline yang mudah dipantau, di-retry, dan di-backfill                 |
+| Tim Audit/Kepatuhan            | Jejak data (traceability) antara sumber biller dan mutasi rekening      |
 
 ### 1.4 Ruang Lingkup (Scope)
 
 **In-scope:**
 
-- Ekstraksi data transaksi dengan `provider_code = 'OTTOAG'`, `transaction_type_code IN ('PAY0001','PUR0001')`, status bukan `REVERSAL`.
+- Ekstraksi data transaksi :
+	- `provider_code = 'OTTOAG'`
+	- `transaction_type_code IN ('PAY0001','PUR0001')`
+	- status bukan `REVERSAL`.
 - Staging sementara di PostgreSQL (`temp_stg_digital_otto`).
 - Join/matching dengan tabel `mutation` berbasis `external_id` dan `value_date`.
 - Load hasil match ke `biller_transaction_summary`.
