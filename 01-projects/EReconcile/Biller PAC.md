@@ -88,10 +88,12 @@ DATE|TIME|MERCHANT_CODE|AIIC|STAN|RRN|NOTELP|Param2|Param3|Param4|AMOUNT|ADMIN|B
 # Query Execute
 
 ```sql
+-- 0. Select gmparameter0 and gmfiletype0 with partipant is pac and channel biller
+select * from gmparameter0 where channelname = 'Biller' and thirdpartyname = 'PAC'; -- 54
+select * from gmfiletype0 where channel = 'Biller' and participant = 'PAC'; -- 58
 
 -- 1. Create gmmappingreportDOP
-insert into gmmappingreportdop ("fieldaccountdestination", "fieldaccountissuer", "fieldacquirerid", "fieldcardnumber", "fieldchargeamount", "fielddestination", "fieldissuerid", "fieldreciptnumber", "fieldstatus", "fieldterminalid", "fieldtransactiondate", "fieldtransactionfee", "fieldtransactionid", "fieldtransactiontime", "fieldtransactiontype", "parameterid", "sourceaccountdestination", "sourceaccountissuer", "sourceacquirerid", "sourcecardnumber", "sourcechargeamount", "sourcedestination", "sourceissuerid", "sourcereciptnumber", "sourcestatus", "sourceterminalid", "sourcetransactiondate", "sourcetransactionfee", "sourcetransactionid", "sourcetransactiontime", "sourcetransactiontype") 
-  values ('source_account', 'debit_account_id', 'acquirer', 'card_no', 'fee_admin', 'recvbic', 'debtbic', 'partner_reference', 'status', 'product_name', 'settlement_date', 'fee_admin', 'journal_reference_id', 'transaction_date', 'transaction_type', gmparameter0_id, 9, 4, 2, 1, 9, 4, 4, 9, 4, 9, 9, 9, 9, 9, 1)
+INSERT INTO gmmappingreportdop (parameterid,sourcetransactionid,fieldtransactionid,sourcetransactiondate,fieldtransactiondate,sourcetransactiontime,fieldtransactiontime,sourceacquirerid,fieldacquirerid,sourceissuerid,fieldissuerid,sourceterminalid,fieldterminalid,sourcedestination,fielddestination,sourcereciptnumber,fieldreciptnumber,sourcetransactionfee,fieldtransactionfee,sourceaccountissuer,fieldaccountissuer,sourceaccountdestination,fieldaccountdestination,sourcetransactiontype,fieldtransactiontype,sourcechargeamount,fieldchargeamount,sourcecardnumber,fieldcardnumber,sourcestatus,fieldstatus) VALUES (gmparameter0_id,9,'journal_reference_id',9,'settlement_date',9,'transaction_date',2,'acquirer',4,'debtbic',9,'product_name',4,'recvbic',9,'partner_reference',9,'fee_admin',9,'source_account',2,'dest_acc_number',1,'transaction_type',9,'fee_admin',1,'card_no',4,'status');
 
 -- 2. Create gmparameter4
 
