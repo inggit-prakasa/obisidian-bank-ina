@@ -4,5 +4,7 @@
   "dataview",
   "obsidian-tasks-plugin",
   "calendar",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-icon-folder",
+  "folder-notes"
 ]
