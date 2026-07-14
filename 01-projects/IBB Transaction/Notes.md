@@ -1,0 +1,17 @@
+- Error Mapping Deposit Account Inquiry
+- Error Mapping Bifast Account Enquiry
+- Error Mapping Bifast Status
+- Error Mapping Proc Transfer Status
+- Error Mapping Predator Bina Monetary
+- Error Mapping Bifast Posting Out
+- Error Mapping Proc Transfer -> Transfer Inquiry
+- Error Mapping Proc Transfer -> Transfer Confirmation
+- Dynamic RTO for service :
+	- Deposit
+	- Bifast
+	- Proc Transfer Grpc
+	- Proc Transfer Rest
+	- Predator
+- Merge bifast status webhook
+- Test webhook when is settlement
+- How to settlement in bifast ?
