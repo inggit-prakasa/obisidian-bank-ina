@@ -1,7 +1,10 @@
 date : 16 Juli 2026
 
-### Daily
-
+### MoM
+- Outgoing with partner_id
+- Incoming for VA
+- For Selisih Waktu just detailed
+- 
 
 ### Notes
 - Apakah transaksi untuk **ACND** ini di FUNDS_TRANSFER recipt_number yang sudah tidak terpotong ?
@@ -9,7 +12,7 @@ date : 16 Juli 2026
 - Apakah di bifast transaction aku bisa mendapatkan nama partnernya ? di konven dan di (mutasi / ops portal)
 	- partner_id / channel_id (bifast.transaction)
 	- partner_users.partners.partner_id = bifast.transactions.partner_id
-- Untuk Logic Refund / Force Credit ini gimana ya ? 
+- Untuk Logic Refund / Force Credit ini gimana ya ?
 	- Apakah jika outgoing pasti refund jika unmatch
 	- Apakah jika incoming pasti force credit jika unmatch
 - Apakah amount charge ada di external ? kalau ada di internal table apa ya ?
