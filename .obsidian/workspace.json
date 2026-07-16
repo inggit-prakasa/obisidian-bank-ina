@@ -6,7 +6,7 @@
       {
         "id": "a80cfbdc2dcc556a",
         "type": "tabs",
-        "dimension": 47.94238683127572,
+        "dimension": 56.24142661179698,
         "children": [
           {
             "id": "7fd8cd88bb8e5375",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-projects/EReconcile/Change Request/CR - 16072026.md",
+                "file": "01-projects/EReconcile/Biller Prima.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CR - 16072026"
+              "title": "Biller Prima"
             }
           },
           {
@@ -55,7 +55,7 @@
       {
         "id": "64de99cabe5e22e8",
         "type": "tabs",
-        "dimension": 52.05761316872428,
+        "dimension": 43.75857338820302,
         "children": [
           {
             "id": "37d8465e15233605",
@@ -254,13 +254,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "37d8465e15233605",
+  "active": "7fd8cd88bb8e5375",
   "lastOpenFiles": [
+    "01-projects/EReconcile/Biller PAC.md",
     "01-projects/EReconcile/Change Request/CR - 16072026.md",
+    "01-projects/EReconcile/MoM/MoM CR Erecon.md",
     "00-inbox/daily/2026-07-16.md",
     "00-inbox/daily/2026-07-02.md",
     "01-projects/IBB Transaction/IBB Transaction.md",
-    "01-projects/EReconcile/MoM/MoM CR Erecon.md",
     "01-projects/EReconcile/FSD/FSD - 16072026.md",
     "01-projects/EReconcile/FSD",
     "01-projects/EReconcile/Change Request",
@@ -275,7 +276,6 @@
     "00-inbox/daily/2026-07-08.md",
     "00-inbox/daily/2026-07-07.md",
     "01-projects/EReconcile/Biller Prima.md",
-    "01-projects/EReconcile/Biller PAC.md",
     "01-projects/EReconcile/Biller OTTO/Biller OTTO.md",
     "01-projects/EReconcile/Biller OTTO",
     "Untitled 3.base",
