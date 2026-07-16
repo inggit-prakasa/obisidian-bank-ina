@@ -8,4 +8,5 @@
 	- Apakah jika outgoing pasti refund jika unmatch
 	- Apakah jika incoming pasti force credit jika unmatch
 - Apakah amount charge ada di external ? kalau ada di internal table apa ya ?
+	- local_charge_amt -> Amount Charge
 - Berikan saya template excel yang untuk journal
