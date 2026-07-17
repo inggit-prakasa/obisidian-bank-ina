@@ -48,9 +48,22 @@
               "icon": "lucide-file",
               "title": "MoM CR Erecon"
             }
+          },
+          {
+            "id": "91e6cb997e34109d",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Untitled.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -233,10 +246,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "baae4bbaefa825da",
+  "active": "91e6cb997e34109d",
   "lastOpenFiles": [
-    "01-projects/EReconcile/Biller OTTO/FSD.md",
+    "Excalidraw/Drawing 2026-07-17 16.20.45.excalidraw.md",
+    "Untitled.base",
     "01-projects/EReconcile/MoM/MoM CR Erecon.md",
+    "01-projects/EReconcile/Biller OTTO/FSD.md",
     "01-projects/EReconcile/MoM/MoM Weekly Meeting 20260629.md",
     "01-projects/EReconcile/Biller Prima.md",
     "01-projects/EReconcile/Biller PAC.md",
@@ -261,15 +276,12 @@
     "Untitled 3.base",
     "Untitled 2.base",
     "Untitled 1.base",
-    "Untitled.base",
     "03-resources/Chat2DB Review.md",
     "00-inbox/daily/2026-06-29.md",
     "00-inbox/daily/2026-07-01.md",
     "00-inbox/daily/2026-07-03.md",
     "00-inbox/daily/2026-07-06.md",
-    "02-areas/Account.md",
     "02-areas/Account",
-    "Excalidraw/Biller PAC Diagram.md",
     "01-projects/EReconcile/MoM"
   ]
 }
