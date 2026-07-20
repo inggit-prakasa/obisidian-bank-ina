@@ -53,13 +53,14 @@
             "id": "91e6cb997e34109d",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
+                "file": "01-projects/EReconcile/FSD/FSD - 16072026.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "FSD - 16072026"
             }
           }
         ],
@@ -248,8 +249,8 @@
   },
   "active": "91e6cb997e34109d",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-07-17 16.20.45.excalidraw.md",
     "Untitled.base",
+    "Excalidraw/Drawing 2026-07-17 16.20.45.excalidraw.md",
     "01-projects/EReconcile/MoM/MoM CR Erecon.md",
     "01-projects/EReconcile/Biller OTTO/FSD.md",
     "01-projects/EReconcile/MoM/MoM Weekly Meeting 20260629.md",
