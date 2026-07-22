@@ -230,8 +230,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5,
-    "collapsed": true
+    "width": 381.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,7 +246,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91e6cb997e34109d",
+  "active": "47c51679bcb702c1",
   "lastOpenFiles": [
     "01-projects/EReconcile/Biller PAC/FSD.md",
     "01-projects/EReconcile/Biller PAC/BRD.md",
