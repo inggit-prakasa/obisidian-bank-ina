@@ -89,7 +89,7 @@ DATE|TIME|MERCHANT_CODE|AIIC|STAN|RRN|NOTELP|Param2|Param3|Param4|AMOUNT|ADMIN|B
 
 ## Deployment Pre-requisite
 ### Service Deployment
-
+- 
 
 ### Query Execute
 
