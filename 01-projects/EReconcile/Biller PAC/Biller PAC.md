@@ -89,8 +89,8 @@ DATE|TIME|MERCHANT_CODE|AIIC|STAN|RRN|NOTELP|Param2|Param3|Param4|AMOUNT|ADMIN|B
 
 ## Deployment Pre-requisite
 ### Service Deployment
-- 
-
+- [extract-data-worker](https://gitlab.gcp.bankina.id/ina-ereconciliation/itk.ereconcile.extractdata.worker)
+- [service-otomatis](https://gitlab.gcp.bankina.id/ina-ereconciliation/itk.ereconcile.service.otomatis)
 ### Query Execute
 
 ```sql
