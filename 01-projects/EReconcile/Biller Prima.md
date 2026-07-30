@@ -7,8 +7,10 @@
 
 ```sql
 -- 0. Select gmparameter0 and gmfiletype0 with partipant is Prima and channel biller
-select * from gmparameter0 where channelname = 'Biller' and thirdpartyname = 'Prima'; -- 55
-select * from gmfiletype0 where channel = 'Biller' and participant = 'Prima'; -- 59
+select * from gmparameter0 where channelname = 'Biller' and thirdpartyname = 'Prima'; -- 30
+select * from gmfiletype0 where channel = 'Biller' and participant = 'Prima'; -- 34
+
+Begin;
 
 -- 1. Create gmmappingreportDOP
 INSERT INTO gmmappingreportdop (parameterid,sourcetransactionid,fieldtransactionid,sourcetransactiondate,fieldtransactiondate,sourcetransactiontime,fieldtransactiontime,sourceacquirerid,fieldacquirerid,sourceissuerid,fieldissuerid,sourceterminalid,fieldterminalid,sourcedestination,fielddestination,sourcereciptnumber,fieldreciptnumber,sourcetransactionfee,fieldtransactionfee,sourceaccountissuer,fieldaccountissuer,sourceaccountdestination,fieldaccountdestination,sourcetransactiontype,fieldtransactiontype,sourcechargeamount,fieldchargeamount,sourcecardnumber,fieldcardnumber,sourcestatus,fieldstatus) VALUES (gmparameter0_id,9,'journal_reference_id',9,'settlement_date',9,'transaction_date',2,'acquirer',4,'debtbic',9,'product_name',4,'recvbic',9,'partner_reference',9,'fee_admin',9,'source_account',2,'dest_acc_number',1,'transaction_type',9,'fee_admin',1,'card_no',4,'status');
@@ -35,4 +37,6 @@ INSERT INTO gmfiletype1 (lineno,idno,field,mappingtodatamart,startindex,endindex
 UPDATE gmfilterreconciliation0 
 SET ibmb = '0', biller = '1' 
 WHERE linenoparameter = gmparameter0_id;
+
+COMMIT;
 ```
