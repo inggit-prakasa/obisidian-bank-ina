@@ -55,16 +55,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-resources/Panduan Belajar Web dari Nol (Khusus untuk Proyek Ini).md",
+                "file": "01-projects/EReconcile/MoM/MoM Weekly Meeting 20260810.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Panduan Belajar Web dari Nol (Khusus untuk Proyek Ini)"
+              "title": "MoM Weekly Meeting 20260810"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -246,11 +245,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5e88191c0e3cfba2",
+  "active": "7fd8cd88bb8e5375",
   "lastOpenFiles": [
-    "01-projects/EReconcile/Change Request/CR - 16072026.md",
-    "03-resources/Panduan Belajar Web dari Nol (Khusus untuk Proyek Ini).md",
+    "01-projects/IBB Transaction/IBB Transaction.md",
+    "01-projects/EReconcile/MoM/MoM CR Erecon.md",
+    "01-projects/EReconcile/MoM/MoM Weekly Meeting 20260810.md",
+    "01-projects/EReconcile/MoM/MoM Weekly Meeting 20260629.md",
     "01-projects/EReconcile/Biller PAC/Biller PAC.md",
+    "03-resources/Panduan Belajar Web dari Nol (Khusus untuk Proyek Ini).md",
+    "01-projects/EReconcile/Change Request/CR - 16072026.md",
     "01-projects/EReconcile/Biller Prima.md",
     "01-projects/EReconcile/Biller PAC/BRD.md",
     "01-projects/EReconcile/Biller PAC/FSD.md",
@@ -262,9 +265,6 @@
     "01-projects/IBB Transaction/IBB FSD.md",
     "Untitled.base",
     "Excalidraw/Drawing 2026-07-17 16.20.45.excalidraw.md",
-    "01-projects/EReconcile/MoM/MoM CR Erecon.md",
-    "01-projects/EReconcile/MoM/MoM Weekly Meeting 20260629.md",
-    "01-projects/IBB Transaction/IBB Transaction.md",
     "00-inbox/daily/2026-07-16.md",
     "00-inbox/daily/2026-07-02.md",
     "01-projects/EReconcile/FSD",
@@ -282,7 +282,6 @@
     "Untitled 1.base",
     "03-resources/Chat2DB Review.md",
     "00-inbox/daily/2026-06-29.md",
-    "00-inbox/daily/2026-07-01.md",
     "02-areas/Account"
   ]
 }

@@ -2,7 +2,6 @@
 ## IBMB Big Query
 - translation_code in OB and O8
 
-
 # Query Execute
 
 ```sql
